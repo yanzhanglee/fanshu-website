@@ -13,7 +13,7 @@ export const Nav00DataSource = {
         name: 'item0',
         className: 'header0-item k2puymvry67-editor_css',
         children: {
-          href: '#',
+          href: '#Banner0_0',
           children: [
             {
               children: (
@@ -26,64 +26,13 @@ export const Nav00DataSource = {
             },
           ],
         },
-        subItem: [
-          {
-            name: 'sub~k2puz71qa3k',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k2puz71qx0f',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
+        subItem: null,
       },
       {
         name: 'item1',
         className: 'header0-item k2puz8rsb6-editor_css',
         children: {
-          href: '#',
+          href: '#Content0_0',
           children: [
             {
               children: (
@@ -100,7 +49,7 @@ export const Nav00DataSource = {
         name: 'item2',
         className: 'header0-item k2puzdcs58l-editor_css',
         children: {
-          href: '#',
+          href: '#Content5_0',
           children: [
             {
               children: (
@@ -117,7 +66,7 @@ export const Nav00DataSource = {
         name: 'item3',
         className: 'header0-item k2puzj2pvmr-editor_css',
         children: {
-          href: '#',
+          href: '#Feature8_0',
           children: [
             {
               children: (
@@ -134,7 +83,7 @@ export const Nav00DataSource = {
         name: 'item~k2puskiaup',
         className: 'header0-item k2puszpusir-editor_css',
         children: {
-          href: '#',
+          href: '#Footer0_0',
           children: [
             {
               children: (
@@ -175,7 +124,7 @@ export const Banner00DataSource = {
         <p>了解更多</p>
       </>
     ),
-    href: '',
+    href: '#Content0_0',
   },
 };
 export const Content00DataSource = {
@@ -323,7 +272,7 @@ export const Content10DataSource = {
     className: 'content1-title',
     children: (
       <>
-        <p>商户端 让您的书馆网络化</p>
+        <p>管理端 让您的书馆网络化</p>
       </>
     ),
   },
@@ -361,7 +310,7 @@ export const Feature20DataSource = {
     children: (
       <>
         <p>
-          查看所加入书馆书籍、书单，线上借阅，发表评价，结交好友...就像真实书馆一样，但更方便、更有趣、更快乐。
+          查看所加入书馆书籍、书单，线上借阅，发表评价，查看书馆动态，结交好友...就像真实书馆一样，但更方便、更有趣、更快乐。
         </p>
       </>
     ),
@@ -378,7 +327,7 @@ export const Content50DataSource = {
         name: 'title',
         children: (
           <>
-            <p>谁在使用？</p>
+            <p>谁在使用</p>
           </>
         ),
         className: 'title-h1',
@@ -674,7 +623,7 @@ export const Feature80DataSource = {
         className: 'feature8-title-content',
         children: (
           <>
-            <p>支持建立个人、机构、单位、商业等多种书馆</p>
+            <p>支持建立个人、机构、单位、商业等多种书馆或文创空间</p>
           </>
         ),
       },
@@ -686,7 +635,7 @@ export const Feature80DataSource = {
       {
         name: 'button',
         className: 'feature8-button',
-        children: { href: '#', children: '立即体验' },
+        children: { href: '#Content13_0', children: '立即体验' },
       },
     ],
   },
@@ -1055,6 +1004,38 @@ export const Feature80DataSource = {
     },
   },
 };
+export const Content130DataSource = {
+  OverPack: {
+    className: 'home-page-wrapper content13-wrapper k3fdfu6l6is-editor_css',
+    playScale: 0.3,
+  },
+  titleWrapper: {
+    className: 'title-wrapper k3fdmhjj9yi-editor_css',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <>
+            <p>微信扫码 开箱即用</p>
+          </>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content~k3fdtwsknfj',
+        className: 'k3fdu2x0ahs-editor_css',
+        children: (
+          <>
+            <p>使用微信扫描二维码，立刻使用「番薯借阅」小程序</p>
+            <p>
+              <br />
+            </p>
+          </>
+        ),
+      },
+    ],
+  },
+};
 export const Footer00DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },
@@ -1062,7 +1043,8 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <>
-        <span>©2019 番薯借阅 上海云阁科技有限公司</span>
+        <span>©2019 番薯借阅 上海云阁科技有限公司 </span>
+        <a href="mailto:fanshujieyue@163.com">联系我们</a>
       </>
     ),
   },

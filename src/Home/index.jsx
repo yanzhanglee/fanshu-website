@@ -10,6 +10,7 @@ import Content1 from './Content1';
 import Feature2 from './Feature2';
 import Content5 from './Content5';
 import Feature8 from './Feature8';
+import Content13 from './Content13';
 import Footer0 from './Footer0';
 import Point from './Point';
 import {
@@ -20,6 +21,7 @@ import {
   Feature20DataSource,
   Content50DataSource,
   Feature80DataSource,
+  Content130DataSource,
   Footer00DataSource,
 } from './data.source';
 
@@ -109,6 +111,12 @@ export default class Home extends React.Component {
         dataSource={Feature80DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Content13
+        id="Content13_0"
+        key="Content13_0"
+        dataSource={Content130DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Footer0
         id="Footer0_0"
         key="Footer0_0"
@@ -125,6 +133,7 @@ export default class Home extends React.Component {
           'Feature2_0',
           'Content5_0',
           'Feature8_0',
+          'Content13_0',
           'Footer0_0',
         ]}
       />,
