@@ -1043,7 +1043,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <>
-        <span>©2019 番薯借阅 上海云阁科技有限公司 </span>
+        <span>©2019 番薯借阅 云阁(上海)信息科技有限公司 </span>
         <a href="mailto:fanshujieyue@163.com">联系我们</a>
       </>
     ),
